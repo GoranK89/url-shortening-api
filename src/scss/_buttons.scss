@@ -1,0 +1,47 @@
+.btn {
+  display: block;
+  border: none;
+  background-color: $cyan;
+  color: $white;
+  transition: 0.25s;
+  font-weight: 500;
+  font-size: 1.6rem;
+  border-radius: 50rem;
+  text-transform: capitalize;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-color: hsl(180, 66%, 70%);
+  }
+
+  &-cta {
+    padding: 0.6rem 2rem;
+  }
+
+  &-hero {
+    padding: 1.6rem 6rem;
+  }
+
+  &-form {
+    padding: 1rem 6rem;
+    border-radius: 1rem;
+  }
+
+  &-copy {
+    padding: 0.6rem 2rem;
+    border-radius: 1rem;
+  }
+
+  &-copied {
+    background-color: $darkViolet;
+    padding: 0.6rem 2rem;
+    border-radius: 1rem;
+
+    &:hover,
+    &:active {
+      cursor: default;
+      background-color: $darkViolet;
+    }
+  }
+}
